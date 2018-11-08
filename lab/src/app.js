@@ -1,3 +1,10 @@
+//-------------------------------------
+//* Setup
+//-------------------------------------
+// Safety Googles ON
+'use strict';
+
+// Dependencies
 import express from 'express';
 import notFound from './middleware/404.js';
 import error from './middleware/error.js';
